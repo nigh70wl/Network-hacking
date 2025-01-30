@@ -1,68 +1,46 @@
-<p align="center">
-  <img src="https://i.imgur.com/Q2Zy1kG.png">
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
-  <img src="https://img.shields.io/badge/NetHunter-✔-red.svg?style=plastic">
-  <img src="https://img.shields.io/badge/OSINT-red.svg?style=plastic">
-  <h4 align="center">OSINT Tool to find Breached Credit Cards Information</h4>
-</p>
-<p align="center">
-  <br>
-  <b>Available in</b>
-  <br>
-  <img src="https://i.imgur.com/IPiAUZi.png">
-</p>
+[![GitHub stars](https://img.shields.io/github/stars/Gameye98/Lazymux.svg)](https://github.com/Gameye98/Lazymux/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Gameye98/Lazymux.svg)](https://github.com/Gameye98/Lazymux/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Gameye98/Lazymux.svg)](https://github.com/Gameye98/Lazymux/issues)
+[![GitHub watchers](https://img.shields.io/github/watchers/Gameye98/Lazymux.svg)](https://github.com/Gameye98/Lazymux/watchers)
+[![Python](https://img.shields.io/badge/language-Python%203-blue.svg)](https://www.python.org)
+[![Bash](https://img.shields.io/badge/language-Bash-blue.svg)](https://www.gnu.org/software/bash/)
+[![WTFPL](https://img.shields.io/badge/license-WTFPL-red.svg)](http://www.wtfpl.net/)
+[![BlackHole Security](https://img.shields.io/badge/team-BlackHole%20Security-ocean.svg)](https://github.com/BlackHoleSecurity)
+[![Gameye98/DedSecTL](https://img.shields.io/badge/author-Gameye98/DedSecTL-red.svg)](https://github.com/Gameye98)
 
-<p align="center">
-  <img src="https://i.imgur.com/5uzbMGS.jpg">
-</p>
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/Gameye98)  
 
-## Description
+[![BlackHole Security](core/gitbhs.svg)](https://github.com/BlackHoleSecurity)
 
-CardPwn Searches for the breached credit card details avaliable on the following 17 Websites:-
+# Lazymux
+Lazymux is a tool that helps you to install and use multiple penetration testing and hacking tools on Android system with ease. It allows users to easily install and use a variety of popular tools such as Nmap, SQLMap, and Metasploit. The tool is simple to use, as you only need to type a command to install and use any of the tools. Lazymux is an open-source project and can be a very helpful tool for penetration testing and ethical hacking tasks.
 
+Made with ❤️
+
+## Feature
+- **Tool Installation**  
+Install Single Tool  
+`lzmx > set_install 1`  
+Install Multi Tool  
+`lzmx > set_install 1 2 3 4`  
+Install All Tool  
+`lzmx > set_install @`  
+- **Default Dir Install**
+On `lazymux.conf` replace symbol ~ with directory you want  
+Example: lazymux.conf  
+`HOME = /sdcard`
+
+
+## Screenshot
+<img src="core/lazymux_4.png">
+
+### Requirements
+• Python 3.x
+
+#### Installation and Using Lazymux
 ```bash
-* cl1p.net        
-* dpaste
-* dumpz.org
-* hastebin
-* ideone
-* pastebin
-* pw.fabian-fingerle.de
-* gist.github.com
-* heypasteit.com
-* ivpaste.com 
-* mysticpaste.com 
-* paste.org.ru 
-* paste2.org 
-* sebsauvage.net/paste/ 
-* slexy.org 
-* squadedit.com 
-* wklej.se 
-* textsnip.com
+apt install python git
+git clone https://github.com/Gameye98/Lazymux
+cd Lazymux
+python lazymux.py
 ```
-
-## FEATURED ON
-<br><a href="https://jakecreps.com/2019/05/08/osint-collection-tools-for-pastebin/">Jake Creps Blog</a></br>
-<a href="https://medium.com/week-in-osint/week-in-osint-2019-21-f8c8584106c7">Week in OSINT</a>
-
-## Disclaimer
-
-This tool is a Proof of Concept and is for Educational Purposes Only.
-
-## Tested On
-
-* Kali Linux 2019.1
-* Ubuntu 18.04
-* Nethunter
-
-## Installation
-
-```bash
-git clone https://github.com/itsmehacker/CardPwn.git
-cd CardPwn
-pip3 install -r requirements.txt
-```
-
-
